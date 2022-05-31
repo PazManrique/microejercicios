@@ -20,3 +20,4 @@ let secondNumber = prompt ('Introduce el segundo numero');
 const result = document.querySelector('p');
 result.textContent = 'El resultado de sumar los numeros introducidos es ' + (parseInt(firstNumber) + parseInt(secondNumber));
  
+console.log(firstNumber)
